@@ -1,2 +1,2 @@
-# InvetoryManagement
-JavaFX Project
+# WGU
+JavaFX ProjectS
