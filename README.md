@@ -1,0 +1,2 @@
+# InvetoryManagement
+JavaFX Project
