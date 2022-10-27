@@ -10,9 +10,9 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-import model.Inventory;
-import model.Part;
-import model.Product;
+import com.example.inventorymanagement.Models.Inventory;
+import com.example.inventorymanagement.Models.Part;
+import com.example.inventorymanagement.Models.Product;
 
 import java.io.IOException;
 import java.net.URL;

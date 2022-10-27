@@ -1,12 +1,22 @@
 package com.example.inventorymanagement;
 
+import com.example.inventorymanagement.Models.InHouse;
+import com.example.inventorymanagement.Models.Inventory;
+import com.example.inventorymanagement.Models.Outsourced;
+import com.example.inventorymanagement.Models.Product;
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+
 
 public class App extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/view/MainScreen.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/Views/MainSceen.fxml"));
         primaryStage.setTitle("Inventory Manager");
         primaryStage.setScene(new Scene(root, 1070, 440));
         primaryStage.show();
@@ -14,6 +24,7 @@ public class App extends Application {
     
     public static void main(String[] args) {
 
+        Application.launch(OKButton.class, args);
         //Sample in-house parts (genetic modifications)
         Inventory.addPart(new InHouse(1, "Heightened senses", 1500.00, 18, 1, 20, 1));
         Inventory.addPart(new InHouse(2, "Chromatophores", 267300.00, 8, 1, 20, 3));
