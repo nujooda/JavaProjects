@@ -3,11 +3,11 @@ package com.example.inventorymanagement.Controllers;
 import javafx.event.ActionEvent;
 import javafx.scene.control.*;
 import javafx.stage.Stage;
-import model.InHouse;
-import model.Inventory;
-import model.Outsourced;
+import com.example.inventorymanagement.Models.InHouse;
+import com.example.inventorymanagement.Models.Inventory;
+import com.example.inventorymanagement.Models.Outsourced;
 
-import static model.Inventory.lookupPart;
+import static com.example.inventorymanagement.Models.Inventory.lookupPart;
 
 /** Controller for add part window. */
 public class AddPartController {
