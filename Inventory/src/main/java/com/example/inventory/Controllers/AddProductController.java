@@ -1,7 +1,5 @@
 package com.example.inventory.Controllers;
 
-package controller;
-
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -9,15 +7,15 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
-import model.Inventory;
-import model.Part;
-import model.Product;
+import com.example.inventory.Model.Inventory;
+import com.example.inventory.Model.Part;
+import com.example.inventory.Model.Product;
 
 import java.net.URL;
 import java.util.Optional;
 import java.util.ResourceBundle;
 
-import static model.Inventory.lookupProduct;
+import static com.example.inventory.Model.Inventory.lookupProduct;
 /** Controller for add product window. */
 public class AddProductController implements Initializable{
     /** Search bar for part list. */

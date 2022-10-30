@@ -4,10 +4,10 @@ import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.stage.Stage;
-import model.InHouse;
-import model.Inventory;
-import model.Outsourced;
-import model.Part;
+import com.example.inventory.Model.InHouse;
+import com.example.inventory.Model.Inventory;
+import com.example.inventory.Model.Outsourced;
+import com.example.inventory.Model.Part;
 
 import java.net.URL;
 import java.util.ResourceBundle;
