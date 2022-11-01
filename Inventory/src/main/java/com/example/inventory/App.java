@@ -7,9 +7,6 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import com.example.inventory.Model.*;
 
-import java.util.Objects;
-
-
 /** FUTURE ENHANCEMENT: A good enhancement for this application would be to add the ability to associate a part with one or more existing products when adding the new part and to raise an alert if the inventory for a part associated with a product drops to zero.
  * The Inventory Management application for managing an inventory of parts and products that contain parts.
  * @author Aaron Simpkiss
@@ -20,7 +17,7 @@ public class App extends Application {
      */
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/View/MainScreen.fxml")));
+        Parent root = FXMLLoader.load(getClass().getResource("src/main/java/com.example.inventory/View/MainScreen.fxml"));
         primaryStage.setTitle("Inventory Manager");
         primaryStage.setScene(new Scene(root, 1070,440));
         primaryStage.show();
