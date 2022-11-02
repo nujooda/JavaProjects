@@ -134,7 +134,7 @@ public class MainScreenController implements Initializable {
      */
     public void addPartButtonPressed() throws IOException {
         //Opens add part menu in a new window
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/View/AddPart.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/AddPart.fxml"));
         Parent root1 = fxmlLoader.load();
         Stage stage = new Stage();
         stage.setTitle("Add Parts");
@@ -171,7 +171,7 @@ public class MainScreenController implements Initializable {
             alert.showAndWait();
         } else {
             //Opens add part menu in a new window
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/View/ModifyPart.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/ModifyPart.fxml"));
             Parent root1 = fxmlLoader.load();
             Stage stage = new Stage();
             stage.setTitle("Modify Part");
@@ -224,7 +224,7 @@ public class MainScreenController implements Initializable {
      */
     public void addProductButtonPressed() throws IOException {
         //Opens add part menu in a new window
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/View/AddProduct.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/AddProduct.fxml"));
         Parent root1 = fxmlLoader.load();
         Stage stage = new Stage();
         stage.setTitle("Add Products");
@@ -260,7 +260,7 @@ public class MainScreenController implements Initializable {
             alert.showAndWait();
         } else {
             //Opens add part menu in a new window
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/View/ModifyProduct.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/ModifyProduct.fxml"));
             Parent root1 = fxmlLoader.load();
             Stage stage = new Stage();
             stage.setTitle("Modify Products");

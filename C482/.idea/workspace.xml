@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c2b056b-310e-4188-aee6-fa547edc5a74" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/AddPartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/AddPartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/AddProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/AddProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/MainScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/MainScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/ModifyPartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/ModifyPartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/ModifyProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/ModifyProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/InHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/InHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Outsourced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Outsourced.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Part.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Part.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/AddPart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/AddPart.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/AddProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/AddProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/ModifyPart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/ModifyPart.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/ModifyProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/ModifyProduct.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="3c2b056b-310e-4188-aee6-fa547edc5a74" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/malmo/WGU/Inventory",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
