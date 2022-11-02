@@ -2,28 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c2b056b-310e-4188-aee6-fa547edc5a74" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C482.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/AddPartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/AddProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/MainScreenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/ModifyPartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/ModifyProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/InHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Outsourced.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Part.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/AddPart.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Inventory/src/main/java/com/example/inventory/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Inventory/src/main/java/com/example/inventory/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/AddPartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/AddPartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/AddProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/AddProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/MainScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/MainScreenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/ModifyPartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/ModifyPartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/ModifyProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/ModifyProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/InHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/InHouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Outsourced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Outsourced.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Part.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Part.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/AddPart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/AddPart.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/AddProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/AddProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/ModifyPart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/ModifyPart.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/ModifyProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/ModifyProduct.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,7 +51,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
