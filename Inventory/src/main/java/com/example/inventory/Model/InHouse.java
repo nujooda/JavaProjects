@@ -1,6 +1,5 @@
 package com.example.inventory.Model;
 
-/** Extension of part model as specified in UML diagram. */
 public class InHouse extends Part {
     private int machineId;
 
