@@ -14,57 +14,55 @@ import com.example.inventory.Model.Product;
 import java.net.URL;
 import java.util.Optional;
 import java.util.ResourceBundle;
-/** Controller for modify product window. */
+
 public class ModifyProductController  implements Initializable {
-    /** Search bar for part list. */
+
     public TextField partSearchBar;
-    /** Product ID field, IDs are auto generated, so this is disabled. */
+
     public TextField productIdField;
-    /** Product name field. */
+
     public TextField productNameField;
-    /** Product inventory field. */
+
     public TextField productInventoryField;
-    /**Product price field */
+
     public TextField productPriceField;
-    /** Product max field. */
+
     public TextField productMaxField;
-    /** Product min field. */
+
     public TextField productMinField;
-    /** Label that is updated when parts are associated with a product and displays a recommended price equal to double the value of all associated parts. */
+
     public Label recommendedPriceText;
-    /** Button that adds a selected part from the list of all parts to the list of associated parts. */
+
     public Button addPartButton;
-    /** Button that removes a selected part from the list of associated parts. */
+
     public Button removePartButton;
-    /** Button that saves and exits the window. */
+
     public Button productSaveButton;
-    /** Button that closes the window without saving. */
+
     public Button productCancelButton;
-    /** Part table. */
     public TableView<Part> partTable;
-    /** Part table id column. */
+
     public TableColumn<Part, Integer> partIdCol;
-    /** Part table name column. */
+
     public TableColumn<Part, String> partNameCol;
-    /** Part table inventory column. */
+
     public TableColumn<Part, Integer> partInventoryCol;
-    /** Part table price column. */
+
     public TableColumn<Part, Integer> partPriceCol;
-    /** Associated part table. */
+
     public TableView<Part> associatedPartTable;
-    /** Associated part table id column. */
+
     public TableColumn<Part, Integer> associatedPartIdCol;
-    /** Associated part table name column. */
+
     public TableColumn<Part, String> associatedPartNameCol;
-    /** Associated part table inventory column. */
+
     public TableColumn<Part, Integer> associatedPartInventoryCol;
-    /** Associated part table price column. */
+
     public TableColumn<Part, Integer> associatedPartPriceCol;
-    /** Part that is going to be moved from one table to another. */
+
     private static Part partToMove;
-    /** List of all parts in the associated parts table. */
+
     private static ObservableList<Part> associatedParts = FXCollections.observableArrayList();
-    /** Function that calculates double the price of all associated parts of a product and sets the label recommended price to that value. */
 
     private ObservableList<Part> partSearch(String searchString) {
         ObservableList<Part> foundParts = FXCollections.observableArrayList();
@@ -77,7 +75,7 @@ public class ModifyProductController  implements Initializable {
         }
         return foundParts;
     }
-    /** Calls search function whenever something is typed in the part search bar, then updates the part table. Runs after any key is released while focused on search bar. */
+
     public void partSearched() {
         //Calls search function for parts
         String searchString = partSearchBar.getText();
@@ -90,7 +88,7 @@ public class ModifyProductController  implements Initializable {
             alert.show();
         }
     }
-    /** Adds selected part in part table to associated part table. */
+
     public void addPartButtonPressed(ActionEvent actionEvent) {
         partToMove = partTable.getSelectionModel().getSelectedItem();
         if (partToMove == null) {
@@ -103,7 +101,7 @@ public class ModifyProductController  implements Initializable {
             associatedPartTable.setItems(associatedParts);
         }
     }
-    /** Removes selected part from associated part table, but requires confirmation. */
+
     public void removePartButtonPressed(ActionEvent actionEvent) {
         partToMove =associatedPartTable.getSelectionModel().getSelectedItem();
         if (partToMove == null) {
@@ -122,7 +120,7 @@ public class ModifyProductController  implements Initializable {
             }
         }
     }
-    /** Error checks, then saves data and closes window. */
+
     public void productSaveButtonPressed(ActionEvent actionEvent) {
         try {
             //Empty field error
@@ -174,12 +172,11 @@ public class ModifyProductController  implements Initializable {
             alert.showAndWait();
         }
     }
-    /** Closes window. */
+
     public void productCancelButtonPressed(ActionEvent actionEvent) {
         Stage stage = (Stage) productCancelButton.getScene().getWindow();
         stage.close();
     }
-    /** Populates part table with all parts, text fields with values of the selected product, and associated parts table with the products associated parts when window is initialized. */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         Product selectedProduct = MainScreenController.selectedProduct;
@@ -203,6 +200,6 @@ public class ModifyProductController  implements Initializable {
         associatedPartNameCol.setCellValueFactory(new PropertyValueFactory<>("name"));
         associatedPartInventoryCol.setCellValueFactory(new PropertyValueFactory<>("stock"));
         associatedPartPriceCol.setCellValueFactory(new PropertyValueFactory<>("price"));
-        //updateRecommendedPrice();
+
     }
 }
